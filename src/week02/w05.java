@@ -25,6 +25,7 @@ public class w05 {
         number = number--;
         System.out.println(number); // 0
 
+
         // 복합 대입 연산자
         number = 10;
 
