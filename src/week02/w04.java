@@ -27,7 +27,9 @@ public class w04 {
         System.out.println((5 > 3) || (3 < 1)); // 5 는 3 보다 크거나, 3 은 1 보다 작다 (true)
         System.out.println((5 < 3) || (3 < 1)); // 5 는 3 보다 작거나, 3 은 1 보다 작다 (false)
 
+
         // System.out.println(1 < 3 < 5); // 불가능한 코드
+
 
         // 논리 부정 연산자
         System.out.println(!flag1); // false (flag1 값의 반대)
