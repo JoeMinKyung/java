@@ -12,6 +12,5 @@ public class w14 {
         } else {
             System.out.println("number 값은 모르는 값입니다."); // 미출력
         }
-
     }
 }
