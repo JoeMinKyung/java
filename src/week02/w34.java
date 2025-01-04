@@ -1,5 +1,7 @@
 package week02;
 
+import java.util.Arrays;
+
 public class w34 {
     public static void main(String[] args) {
         // 깊은 복사
