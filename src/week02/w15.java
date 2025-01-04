@@ -18,6 +18,7 @@ public class w15 {
             } else if (number == 2) {
                 System.out.println("flag 값은 false, number 값은 2 입니다."); // 미출력
             }
+
         }
     }
 }
