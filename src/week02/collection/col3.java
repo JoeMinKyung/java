@@ -32,5 +32,6 @@ public class col3 {
 
         while (!intStack.isEmpty()) { // 다 지워질때까지 출력
             System.out.println(intStack.pop()); // 1 출력 (마지막 남은거 하나)
+        }
     }
 }
