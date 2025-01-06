@@ -22,33 +22,41 @@ public class Car {
     }
     // 아무 것도 없는 위와같은 상태를 기본 생성자라고 한다. -> 생략 가능
 
-    //<메서드 영역>
-    //gasPedal
-    double gasPedal(double kmh) {
+    // <메서드 영역>
+    // gasPedal
+    double gasPedal(double kmh, char type) {
+        changeGear(type);
         speed = kmh;
         return speed;
     }
 
-    //breakPedal
+    // breakPedal
     double brakePedal() {
         speed = 0;
         return speed;
     }
 
-    //changeGear
+    // changeGear
     char changeGear(char type) {
         gear = type;
         return gear;
     }
 
-    //onOffLight
+    // onOffLight
     boolean onOffLights() {
         lights = !lights;
         return lights;
     }
 
-    //horn
+    // horn
     void horn() {
         System.out.println("빵빵");
+    }
+
+    // carSpeeds
+    void carSpeeds(double ... speeds) {
+        for (double v : speeds) {
+            System.out.println("v = " + v);
+        }
     }
 }
