@@ -1,9 +1,9 @@
 package week03.abs;
 
-public class ZenesisCar extends Car {
+public class GenesisCar extends Car {
 
     @Override
     public void horn() {
-        System.out.println("Zenesis 빵빵");
+        System.out.println("Genesis 빵빵");
     }
 }

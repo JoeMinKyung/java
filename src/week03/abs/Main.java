@@ -10,7 +10,7 @@ public class Main {
         car2.horn();
         System.out.println();
 
-        Car car3 = new ZenesisCar();
+        Car car3 = new GenesisCar();
         car3.horn();
     }
 }
